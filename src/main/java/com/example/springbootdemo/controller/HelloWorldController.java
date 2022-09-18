@@ -22,4 +22,9 @@ public class HelloWorldController {
     public String xuexuexue(){
         return "yueyueyue";
     }
+    @ResponseBody
+    @RequestMapping("/master")
+    public String master(){
+        return "master";
+    }
 }
