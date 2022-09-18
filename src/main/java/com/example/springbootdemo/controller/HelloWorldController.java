@@ -12,4 +12,9 @@ public class HelloWorldController {
     public String hello(){
         return "HelloWorld";
     }
+    @ResponseBody
+    @RequestMapping("/haha")
+    public String haha(){
+        return "hhhhhhhhhhhhh";
+    }
 }
