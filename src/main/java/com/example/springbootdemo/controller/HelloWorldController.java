@@ -13,7 +13,7 @@ public class HelloWorldController {
         return "HelloWorld";
     }
     @ResponseBody
-    @RequestMapping("/haha")
+    @RequestMapping("/ddddddddd")
     public String haha(){
         return "hhhhhhhhhhhhh";
     }
