@@ -25,6 +25,7 @@ public class HelloWorldController {
     @ResponseBody
     @RequestMapping("/master")
     public String master(){
-        return "master";
+        return "这是feature的内容";
     }
+
 }
