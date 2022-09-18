@@ -22,4 +22,9 @@ public class HelloWorldController {
     public String xuexuexue(){
         return "yueyueyue";
     }
+    @ResponseBody
+    @RequestMapping("/feature")
+    public String feature(){
+        return "这是feature的内容";
+    }
 }
