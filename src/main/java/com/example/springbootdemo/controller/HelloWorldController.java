@@ -17,4 +17,9 @@ public class HelloWorldController {
     public String haha(){
         return "ddddddddddd";
     }
+    @ResponseBody
+    @RequestMapping("/sisissi")
+    public String xuexuexue(){
+        return "yueyueyue";
+    }
 }
